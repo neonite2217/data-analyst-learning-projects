@@ -1,0 +1,11 @@
+# Scala Dependencies (build.sbt format)
+# Core Scala libraries for data analysis
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "3.4.0",
+  "org.apache.spark" %% "spark-sql" % "3.4.0",
+  "org.apache.spark" %% "spark-mllib" % "3.4.0",
+  "org.plotly-scala" %% "plotly-render" % "0.8.2",
+  "com.github.haifengl" %% "smile-scala" % "3.0.1",
+  "org.scalanlp" %% "breeze" % "2.1.0",
+  "org.scalanlp" %% "breeze-viz" % "2.1.0"
+)
