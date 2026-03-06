@@ -652,8 +652,7 @@ class ChurnAnalysisProject:
             ]].copy()
             
             # Add recommended actions
-            actions = []
-            for _, customer in high_risk_customers.iterrows():
+            def get_recommended_actions(customer):
                 action_list = []
                 if customer['Contract'] == 'Month-to-month':
                     action_list.append('Offer contract upgrade incentive')
@@ -665,10 +664,9 @@ class ChurnAnalysisProject:
                     action_list.append('Review pricing/package optimization')
                 if customer['Tenure_Months'] < 6:
                     action_list.append('New customer retention program')
-                
-                actions.append('; '.join(action_list) if action_list else 'General retention contact')
-            
-            high_risk_customers['Recommended Actions'] = actions
+                return '; '.join(action_list) if action_list else 'General retention contact'
+
+            high_risk_customers['Recommended Actions'] = high_risk_customers.apply(get_recommended_actions, axis=1)
             high_risk_customers['Priority'] = high_risk_customers['Churn_Probability'].apply(
                 lambda x: 'Critical' if x > 0.8 else 'High'
             )
