@@ -43,8 +43,8 @@ This project provides a complete end-to-end customer churn analysis solution tha
 ### Quick Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/customer-churn-analysis.git
-cd customer-churn-analysis
+git clone https://github.com/neonite2217/data-analyst-learning-projects.git
+cd "data-analyst-learning-projects/customer churn analysis"
 
 # Install required packages
 pip install pandas numpy scikit-learn matplotlib seaborn openpyxl requests joblib
@@ -216,7 +216,7 @@ def predict():
 ## 📚 Project Structure
 
 ```
-customer-churn-analysis/
+data-analyst-learning-projects/
 │
 ├── 📄 README.md                          # Project documentation
 ├── 📄 requirements.txt                   # Python dependencies
@@ -285,7 +285,8 @@ We welcome contributions! Here's how you can help:
 ### Development Setup
 ```bash
 # Fork and clone the repo
-git clone https://github.com/yourusername/customer-churn-analysis.git
+git clone https://github.com/neonite2217/data-analyst-learning-projects.git
+cd "data-analyst-learning-projects/customer churn analysis"
 
 # Create a feature branch
 git checkout -b feature/your-feature-name
@@ -378,8 +379,8 @@ This project demonstrates:
 ## 📞 Support & Contact
 
 ### 🆘 Getting Help
-- **Issues**: [GitHub Issues](https://github.com/yourusername/customer-churn-analysis/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/customer-churn-analysis/discussions)
+- **Issues**: [GitHub Issues](https://github.com/neonite2217/data-analyst-learning-projects/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/neonite2217/data-analyst-learning-projects/discussions)
 - **Email**: [your.email@domain.com](mailto:your.email@domain.com)
 
 ### 🌐 Connect
@@ -403,15 +404,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/customer-churn-analysis&type=Date)](https://star-history.com/#yourusername/customer-churn-analysis&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=neonite2217/data-analyst-learning-projects&type=Date)](https://star-history.com/#neonite2217/data-analyst-learning-projects&Date)
 
 ---
 
 ### 🚀 Ready to Get Started?
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-analysis.git
-cd customer-churn-analysis
+git clone https://github.com/neonite2217/data-analyst-learning-projects.git
+cd "data-analyst-learning-projects/customer churn analysis"
 pip install -r requirements.txt
 python churn_analysis.py
 ```
@@ -422,6 +423,6 @@ python churn_analysis.py
 
 > *"In God we trust. All others must bring data."* - W. Edwards Deming
 
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/yourusername)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/neonite2217)
 [![Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
-[![Data Science](https://img.shields.io/badge/Powered%20by-Data%20Science-green.svg)](https://github.com/yourusername/customer-churn-analysis)
+[![Data Science](https://img.shields.io/badge/Powered%20by-Data%20Science-green.svg)](https://github.com/neonite2217/data-analyst-learning-projects)

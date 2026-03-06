@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/sales-forecasting)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/neonite2217/data-analyst-learning-projects)
 
 A comprehensive Python application for sales demand forecasting that combines machine learning, statistical analysis, and business intelligence visualization capabilities. Perfect for data analysts, business analysts, and retail professionals looking to optimize inventory management and sales planning.
 

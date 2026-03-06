@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### Installation
 ```bash
-git clone <repository-url>
+git clone https://github.com/neonite2217/data-analyst-learning-projects.git
 cd Titanic-data-analysis
 pip install -r requirements.txt
 ```
