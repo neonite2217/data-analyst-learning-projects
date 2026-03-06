@@ -12,13 +12,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score, roc_curve
+from sklearn.metrics import classification_report, roc_auc_score
 import warnings
-import os
 from datetime import datetime, timedelta
 import json
 import requests
-import zipfile
 from pathlib import Path
 
 warnings.filterwarnings('ignore')
