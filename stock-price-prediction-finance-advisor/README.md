@@ -1,5 +1,9 @@
 # 📈 Enhanced Stock Analyzer with Interactive Charts
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Machine Learning](https://img.shields.io/badge/Machine-Learning-yellow.svg)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 **Made by Neonite - Production Version**
 
 Professional stock analysis tool with AI-powered predictions and interactive charts. Educational use only.
